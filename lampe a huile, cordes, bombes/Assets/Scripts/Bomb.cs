@@ -7,6 +7,7 @@ public class Bomb : MonoBehaviour
     private float timer;
     private int radiusX;
     private int radiusY;
+    private GameGrid grid;
     [SerializeField] private float tickBoom;
     void Start()
     {
@@ -18,7 +19,7 @@ public class Bomb : MonoBehaviour
     {
         timer += Time.deltaTime * tickBoom;
         timer = Mathf.Clamp01(timer);
-        if (timer == 1f)
+        if (timer == tickBoom)
         {
             BOOM();
         }
@@ -29,9 +30,10 @@ public class Bomb : MonoBehaviour
         Destroy(this.gameObject);
     }
 
-    public void SetRadius(int value)
+    public void SetBomb(int radius, GameGrid Gamegrid)
     {
-        radiusX = value;
-        radiusY = value;
+        radiusX = radius;
+        radiusY = radius;
+        grid = Gamegrid;
     }
 }

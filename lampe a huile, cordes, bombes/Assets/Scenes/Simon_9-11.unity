@@ -292,7 +292,7 @@ Transform:
   m_GameObject: {fileID: 771988001}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10, y: 0, z: -10}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -313,16 +313,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   actionTime: 0
   moveSpeed: 3
-  rotationSpeed: 3
   cellOn:
     entity: {fileID: 1037423674}
   startInTheMidle: 0
   snapToGrid: 0
-  posX: 0
-  posY: 0
+  _transform: {fileID: 771988002}
   pauseCanvas: {fileID: 0}
   behaviours: []
   grid: {fileID: 405406118}
+  bombPrefab: {fileID: 455200727040983900, guid: 6055e81f5063f2c448d5ccf7d0f3c1ac, type: 3}
   isOnPause: 0
 --- !u!114 &771988004
 MonoBehaviour:
@@ -365,6 +364,22 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 43f3a8fc-e663-4be3-a6a9-4b41398ab176
     m_ActionName: Movement/Movement[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 771988003}
+        m_TargetAssemblyTypeName: PlayerMovement, Assembly-CSharp
+        m_MethodName: OnBombEnter
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 93b96313-2591-4b8d-b495-6a9c5e51e930
+    m_ActionName: Movement/Bomb[/Mouse/leftButton]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Movement

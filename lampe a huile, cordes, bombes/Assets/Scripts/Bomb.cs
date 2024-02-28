@@ -4,22 +4,23 @@ using UnityEngine;
 
 public class Bomb : MonoBehaviour
 {
-    private float timer;
     private int radiusX;
     private int radiusY;
-    private GameGrid grid;
+    private PlayerMovement player;
+    public List<Cell> explodingCells;
+    private Cell cellOn;
     [SerializeField] private float tickBoom;
-    void Start()
+
+    private void Start()
     {
-        timer = 0f;
+        SetBomb(player.radius, cellOn);
+        explodingCells = player.grid.GetNeighbors(cellOn);
+        Debug.Log(explodingCells.Count);
     }
-
-
     void Update()
     {
-        timer += Time.deltaTime * tickBoom;
-        timer = Mathf.Clamp01(timer);
-        if (timer == tickBoom)
+        tickBoom -= Time.deltaTime;
+        if (tickBoom <= 0f)
         {
             BOOM();
         }
@@ -27,13 +28,18 @@ public class Bomb : MonoBehaviour
 
     private void BOOM()
     {
+        for (int i = 0; i < explodingCells.Count; i++)
+        {
+            Debug.Log("caca");
+            player.grid.GetCell(explodingCells[i].gridPos.Item1, explodingCells[i].gridPos.Item2).ExplodeCell();
+        }
         Destroy(this.gameObject);
     }
 
-    public void SetBomb(int radius, GameGrid Gamegrid)
+    public void SetBomb(int radius, Cell cell)
     {
         radiusX = radius;
         radiusY = radius;
-        grid = Gamegrid;
+        cellOn = cell;
     }
 }

@@ -45,6 +45,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bfe452ac9e6535d49a68f5f60822c2d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  countDown: 3
   tickBoom: 2
 --- !u!1 &6275569000012230692
 GameObject:

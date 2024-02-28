@@ -40,7 +40,7 @@ public class PlayerMovement : MonoBehaviour
 
     [SerializeField] private GameObject bombPrefab;
 
-    private Bomb _bomb;
+    //[SerializeField] private Bomb _bomb;
 
     public bool isOnPause;
 
@@ -49,7 +49,7 @@ public class PlayerMovement : MonoBehaviour
     private int orientationX;
     private int orientationY;
 
-    private int radius;
+    public int radius;
 
     private bool isFirstMove;
 
@@ -65,9 +65,7 @@ public class PlayerMovement : MonoBehaviour
 
         entity = entity.instance;
 
-        _bomb = bombPrefab.GetComponent<Bomb>();
-
-        radius = 3;
+        radius = 6;
 
         //center on the grid or set manualy
         if (startInTheMidle)
@@ -125,6 +123,10 @@ public class PlayerMovement : MonoBehaviour
                 isMoving = false;
                 TryMove();
             }
+        }
+        if (cellOn.isExploding)
+        {
+            Death();
         }
     }
 
@@ -251,9 +253,13 @@ public class PlayerMovement : MonoBehaviour
 
     public void OnBombEnter()
     {
-        _bomb.SetBomb(radius, grid);
         Cell bombCell = grid.GetCell(cellOn.gridPos.Item1 + orientationX, cellOn.gridPos.Item2 + orientationY);
         GameObject bomb = Instantiate(bombPrefab, bombCell.pos , Quaternion.identity);
     }
 
+    private void Death()
+    {
+        moveSpeed = 0;
+        gameObject.SetActive(false);
+    }
 }

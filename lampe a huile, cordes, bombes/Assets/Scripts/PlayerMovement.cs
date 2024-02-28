@@ -1,7 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.UIElements;
 
 
 public class PlayerMovement : MonoBehaviour
@@ -10,15 +12,13 @@ public class PlayerMovement : MonoBehaviour
 
     [SerializeField] private float moveSpeed;
 
-    [SerializeField] private float rotationSpeed;
-
     [SerializeField] public Cell cellOn;
 
     [SerializeField] bool startInTheMidle;
 
     [SerializeField] bool snapToGrid;
 
-    [SerializeField] int posX, posY;
+    [SerializeField] private Transform _transform;
 
     [SerializeField] public GameObject pauseCanvas;
 
@@ -38,11 +38,20 @@ public class PlayerMovement : MonoBehaviour
 
     public static PlayerMovement instance;
 
-    private float life;
+    [SerializeField] private GameObject bombPrefab;
+
+    private Bomb _bomb;
 
     public bool isOnPause;
 
     Vector2 movement;
+
+    private int orientationX;
+    private int orientationY;
+
+    private int radius;
+
+    private bool isFirstMove;
 
     private void Awake()
     {
@@ -51,9 +60,14 @@ public class PlayerMovement : MonoBehaviour
 
     void Start()
     {
+        isFirstMove = true;
         grid = GameGrid.instance;
 
         entity = entity.instance;
+
+        _bomb = bombPrefab.GetComponent<Bomb>();
+
+        radius = 3;
 
         //center on the grid or set manualy
         if (startInTheMidle)
@@ -66,7 +80,7 @@ public class PlayerMovement : MonoBehaviour
         }
         else
         {
-            cellOn = grid.GetCell(posX, posY);
+            cellOn = grid.GetCell(_transform.position.x.ConvertTo<int>(), _transform.position.z.ConvertTo<int>());
         }
 
 
@@ -74,6 +88,10 @@ public class PlayerMovement : MonoBehaviour
 
 
         transform.position = cellOn.pos;
+
+        lastPosition = cellOn.pos;
+
+        targetPosition = cellOn.pos;
 
 
         isMoving = false;
@@ -88,26 +106,11 @@ public class PlayerMovement : MonoBehaviour
         if (flash)
         {
             moveSpeed *= 2;
-            rotationSpeed *= 2;
         }
         else
         {
             moveSpeed /= 2f;
-            rotationSpeed /= 2f;
         }
-    }
-
-    public void Spawn(Vector2Int SpawnPoint, float rota)
-    {
-        posX = SpawnPoint.x;
-        posY = SpawnPoint.y;
-        Cell targetCell = grid.GetCell(SpawnPoint.x, SpawnPoint.y);
-        cellOn.DeleteEntity();
-        targetCell.SetEntity(entity);
-        cellOn = targetCell;
-        timer = 0f;
-        transform.position = cellOn.pos;
-        transform.rotation = Quaternion.Euler(0, rota, 0);
     }
 
     void Update()
@@ -165,11 +168,23 @@ public class PlayerMovement : MonoBehaviour
     {
         Cell targetCell = grid.GetCell(cellOn.gridPos.Item1 + x, cellOn.gridPos.Item2 + z);
 
-
-        if (targetCell != null && !WallDetection(cellOn.pos, targetCell.pos) && !targetCell.HasEntity())
+        orientationX = x;
+        orientationY = z;
+        if (isFirstMove)
         {
-            MoveToCell(targetCell);
+            if (targetCell != null && !targetCell.HasEntity())
+            {
+                MoveToCell(targetCell);
+            }
         }
+        else
+        {
+            if (targetCell != null && !WallDetection(cellOn.pos, targetCell.pos) && !targetCell.HasEntity())
+            {
+                MoveToCell(targetCell);
+            }
+        }
+        isFirstMove = false;
         return;
     }
 
@@ -232,6 +247,13 @@ public class PlayerMovement : MonoBehaviour
         {
             argument.gameObject.SetActive(true);
         }
+    }
+
+    public void OnBombEnter()
+    {
+        _bomb.SetBomb(radius, grid);
+        Cell bombCell = grid.GetCell(cellOn.gridPos.Item1 + orientationX, cellOn.gridPos.Item2 + orientationY);
+        GameObject bomb = Instantiate(bombPrefab, bombCell.pos , Quaternion.identity);
     }
 
 }

@@ -51,8 +51,6 @@ public class PlayerMovement : MonoBehaviour
 
     public int radius;
 
-    private bool isFirstMove;
-
     private void Awake()
     {
         instance = this;
@@ -60,12 +58,9 @@ public class PlayerMovement : MonoBehaviour
 
     void Start()
     {
-        isFirstMove = true;
         grid = GameGrid.instance;
 
-        entity = entity.instance;
-
-        radius = 6;
+        radius = 3;
 
         //center on the grid or set manualy
         if (startInTheMidle)
@@ -82,9 +77,6 @@ public class PlayerMovement : MonoBehaviour
         }
 
 
-        cellOn.SetEntity(entity);
-
-
         transform.position = cellOn.pos;
 
         lastPosition = cellOn.pos;
@@ -95,6 +87,9 @@ public class PlayerMovement : MonoBehaviour
         isMoving = false;
 
         isOnPause = false;
+
+        entity = Entity.instance;
+        cellOn.SetEntity(entity);
 
 
     }
@@ -172,21 +167,10 @@ public class PlayerMovement : MonoBehaviour
 
         orientationX = x;
         orientationY = z;
-        if (isFirstMove)
+        if (targetCell != null && !WallDetection(cellOn.pos, targetCell.pos) && !targetCell.HasEntity())
         {
-            if (targetCell != null && !targetCell.HasEntity())
-            {
-                MoveToCell(targetCell);
-            }
+            MoveToCell(targetCell);
         }
-        else
-        {
-            if (targetCell != null && !WallDetection(cellOn.pos, targetCell.pos) && !targetCell.HasEntity())
-            {
-                MoveToCell(targetCell);
-            }
-        }
-        isFirstMove = false;
         return;
     }
 

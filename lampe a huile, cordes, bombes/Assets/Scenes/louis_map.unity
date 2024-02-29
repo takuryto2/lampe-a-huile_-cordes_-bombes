@@ -1451,7 +1451,7 @@ Transform:
   m_GameObject: {fileID: 771988001}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6, y: 0, z: 6}
+  m_LocalPosition: {x: -10, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1472,16 +1472,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   actionTime: 0
   moveSpeed: 3
-  rotationSpeed: 3
   cellOn:
     entity: {fileID: 1037423674}
   startInTheMidle: 0
   snapToGrid: 1
-  posX: 0
-  posY: 0
+  _transform: {fileID: 0}
   pauseCanvas: {fileID: 0}
   behaviours: []
   grid: {fileID: 405406118}
+  bombPrefab: {fileID: 0}
   isOnPause: 0
 --- !u!114 &771988004
 MonoBehaviour:
@@ -1524,6 +1523,10 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 43f3a8fc-e663-4be3-a6a9-4b41398ab176
     m_ActionName: Movement/Movement[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 93b96313-2591-4b8d-b495-6a9c5e51e930
+    m_ActionName: Movement/Bomb[/Mouse/leftButton]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Movement

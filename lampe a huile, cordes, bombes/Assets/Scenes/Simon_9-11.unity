@@ -292,7 +292,7 @@ Transform:
   m_GameObject: {fileID: 771988001}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -4, y: 0, z: -6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -315,14 +315,16 @@ MonoBehaviour:
   moveSpeed: 3
   cellOn:
     entity: {fileID: 1037423674}
+    isExploding: 0
   startInTheMidle: 0
-  snapToGrid: 0
+  snapToGrid: 1
   _transform: {fileID: 771988002}
   pauseCanvas: {fileID: 0}
   behaviours: []
   grid: {fileID: 405406118}
   bombPrefab: {fileID: 455200727040983900, guid: 6055e81f5063f2c448d5ccf7d0f3c1ac, type: 3}
   isOnPause: 0
+  radius: 0
 --- !u!114 &771988004
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -595,7 +597,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 339aa649544c9d6459197e35160bdea5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  instance: {fileID: 0}
 --- !u!1 &2076680079
 GameObject:
   m_ObjectHideFlags: 0
@@ -608,7 +609,7 @@ GameObject:
   - component: {fileID: 2076680082}
   - component: {fileID: 2076680081}
   - component: {fileID: 2076680080}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -685,7 +686,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2076680079}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!4 &2076680083
 Transform:
   m_ObjectHideFlags: 0

@@ -40,7 +40,7 @@ public class PlayerMovement : MonoBehaviour
 
     [SerializeField] private GameObject bombPrefab;
 
-    private Bomb _bomb;
+    //[SerializeField] private Bomb _bomb;
 
     public bool isOnPause;
 
@@ -49,9 +49,7 @@ public class PlayerMovement : MonoBehaviour
     private int orientationX;
     private int orientationY;
 
-    private int radius;
-
-    private bool isFirstMove;
+    public int radius;
 
     private void Awake()
     {
@@ -60,12 +58,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Start()
     {
-        isFirstMove = true;
         grid = GameGrid.instance;
-
-        entity = entity.instance;
-
-        _bomb = bombPrefab.GetComponent<Bomb>();
 
         radius = 3;
 
@@ -84,9 +77,6 @@ public class PlayerMovement : MonoBehaviour
         }
 
 
-        cellOn.SetEntity(entity);
-
-
         transform.position = cellOn.pos;
 
         lastPosition = cellOn.pos;
@@ -97,6 +87,9 @@ public class PlayerMovement : MonoBehaviour
         isMoving = false;
 
         isOnPause = false;
+
+        entity = Entity.instance;
+        cellOn.SetEntity(entity);
 
 
     }
@@ -125,6 +118,10 @@ public class PlayerMovement : MonoBehaviour
                 isMoving = false;
                 TryMove();
             }
+        }
+        if (cellOn.isExploding)
+        {
+            Death();
         }
     }
 
@@ -170,21 +167,10 @@ public class PlayerMovement : MonoBehaviour
 
         orientationX = x;
         orientationY = z;
-        if (isFirstMove)
+        if (targetCell != null && !WallDetection(cellOn.pos, targetCell.pos) && !targetCell.HasEntity())
         {
-            if (targetCell != null && !targetCell.HasEntity())
-            {
-                MoveToCell(targetCell);
-            }
+            MoveToCell(targetCell);
         }
-        else
-        {
-            if (targetCell != null && !WallDetection(cellOn.pos, targetCell.pos) && !targetCell.HasEntity())
-            {
-                MoveToCell(targetCell);
-            }
-        }
-        isFirstMove = false;
         return;
     }
 
@@ -251,9 +237,13 @@ public class PlayerMovement : MonoBehaviour
 
     public void OnBombEnter()
     {
-        _bomb.SetBomb(radius, grid);
         Cell bombCell = grid.GetCell(cellOn.gridPos.Item1 + orientationX, cellOn.gridPos.Item2 + orientationY);
         GameObject bomb = Instantiate(bombPrefab, bombCell.pos , Quaternion.identity);
     }
 
+    private void Death()
+    {
+        moveSpeed = 0;
+        gameObject.SetActive(false);
+    }
 }

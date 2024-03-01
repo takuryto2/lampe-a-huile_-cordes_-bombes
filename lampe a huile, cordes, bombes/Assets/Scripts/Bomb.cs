@@ -38,8 +38,11 @@ public class Bomb : MonoBehaviour
         }*/
         Instantiate(explosionPrefab, transform.position, Quaternion.identity);
         StartCoroutine(CreateExplosions(Vector3.forward * player.grid.cellSpacement));
+        Debug.Log("next");
         StartCoroutine(CreateExplosions(Vector3.right * player.grid.cellSpacement));
+        Debug.Log("next");
         StartCoroutine(CreateExplosions(Vector3.back * player.grid.cellSpacement));
+        Debug.Log("next");
         StartCoroutine(CreateExplosions(Vector3.left * player.grid.cellSpacement));
         Destroy(this.gameObject);
     }
@@ -47,12 +50,12 @@ public class Bomb : MonoBehaviour
     private IEnumerator CreateExplosions(Vector3 direction)
     {
         //1
-        for (int i = 1; i < player.radius; i++)
+        for (int i = 1; i < player.radius + 1; i++)
         {
             //2
             RaycastHit hit;
             //3
-            Physics.Raycast(_transform.position + new Vector3(0, .5f, 0), direction, out hit,
+            Physics.Raycast(_transform.position + new Vector3(0, 0.5f, 0), direction, out hit,
               i, levelMask);
 
             //4
@@ -69,7 +72,7 @@ public class Bomb : MonoBehaviour
             }
 
             //8
-            yield return new WaitForSeconds(.05f);
+            yield return new WaitForSeconds(0.05f);
         }
     }
 

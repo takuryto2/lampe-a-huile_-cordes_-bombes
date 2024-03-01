@@ -51,6 +51,8 @@ public class PlayerMovement : MonoBehaviour
 
     public int radius;
 
+    private bool terrorism;
+
     private void Awake()
     {
         instance = this;
@@ -60,7 +62,9 @@ public class PlayerMovement : MonoBehaviour
     {
         grid = GameGrid.instance;
 
-        radius = 3;
+        radius = 1;
+
+        terrorism = true;
 
         //center on the grid or set manualy
         if (startInTheMidle)
@@ -237,13 +241,22 @@ public class PlayerMovement : MonoBehaviour
 
     public void OnBombEnter()
     {
-        Cell bombCell = grid.GetCell(cellOn.gridPos.Item1 + orientationX, cellOn.gridPos.Item2 + orientationY);
-        GameObject bomb = Instantiate(bombPrefab, bombCell.pos , Quaternion.identity);
+        if (terrorism == true)
+        {
+            Cell bombCell = grid.GetCell(cellOn.gridPos.Item1 + orientationX, cellOn.gridPos.Item2 + orientationY);
+            GameObject bomb = Instantiate(bombPrefab, bombCell.pos, Quaternion.identity);
+            SetBool(false);
+        }
     }
 
     private void Death()
     {
         moveSpeed = 0;
         gameObject.SetActive(false);
+    }
+
+    public void SetBool(bool value)
+    {
+        terrorism = value;
     }
 }

@@ -60,7 +60,7 @@ public class PlayerMovement : MonoBehaviour
     {
         grid = GameGrid.instance;
 
-        radius = 3;
+        radius = 1;
 
         //center on the grid or set manualy
         if (startInTheMidle)

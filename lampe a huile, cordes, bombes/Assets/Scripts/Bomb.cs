@@ -38,12 +38,10 @@ public class Bomb : MonoBehaviour
         }*/
         Instantiate(explosionPrefab, transform.position, Quaternion.identity);
         StartCoroutine(CreateExplosions(Vector3.forward * player.grid.cellSpacement));
-        Debug.Log("next");
         StartCoroutine(CreateExplosions(Vector3.right * player.grid.cellSpacement));
-        Debug.Log("next");
         StartCoroutine(CreateExplosions(Vector3.back * player.grid.cellSpacement));
-        Debug.Log("next");
         StartCoroutine(CreateExplosions(Vector3.left * player.grid.cellSpacement));
+        FindObjectOfType<AudioManager>().PlaySound("Kaboom");
         Destroy(this.gameObject);
     }
 
@@ -55,8 +53,7 @@ public class Bomb : MonoBehaviour
             //2
             RaycastHit hit;
             //3
-            Physics.Raycast(_transform.position + new Vector3(0, 0.5f, 0), direction, out hit,
-              i, levelMask);
+            Physics.Raycast(_transform.position + new Vector3(0, 0.5f, 0), direction, out hit, i * player.grid.cellSpacement, levelMask);
 
             //4
             if (!hit.collider)
@@ -70,10 +67,8 @@ public class Bomb : MonoBehaviour
             { //7
                 break;
             }
-
-            //8
-            yield return new WaitForSeconds(0.05f);
         }
+        yield return new WaitForSeconds(0.05f);
     }
 
 

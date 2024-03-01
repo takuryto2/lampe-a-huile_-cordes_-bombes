@@ -1,0 +1,3656 @@
+fileFormatVersion: 2
+guid: 9b1c9e33673963c41bc57d2132679d21
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: morshu rtx_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7876
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3dd40b524b41dc4c9c6929c13c706ae
+      internalID: 952015833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_1
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 7876
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fba1963f86a490642a601f21d6e61a3f
+      internalID: 1820002932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_2
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 7876
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8e08caf908736747b800badfbe15312
+      internalID: 1414351755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_3
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 7876
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffe394affdaf0ab46a0eaaecbf835c44
+      internalID: 1554068905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_4
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 7876
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f4876abfbe16694f909bcabc939ce4b
+      internalID: -1090920457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_5
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 7876
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d22b9d764f9ae44aaeee4e1ca3ef47e
+      internalID: 1454631559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_6
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 7876
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9892fc713e4a08040bf51cfeff62bcf3
+      internalID: -264545367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7518
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d358839c3f93bc4f8b1185a44e51d93
+      internalID: -1199391505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_8
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 7518
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5788cedebd26a7d428decaa2917cb6a3
+      internalID: 1974246329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_9
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 7518
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 191a95cb75065374291582ab41c2de47
+      internalID: -2096776892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_10
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 7518
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 365c9c32eb9f1414ea9b3160ae1d53ef
+      internalID: 1345009957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_11
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 7518
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e2f16d5637b6cf469db57e345c33d45
+      internalID: 394751591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_12
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 7518
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 460bea92fd77eb14f8b38b0e5eceebc9
+      internalID: -281997147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_13
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 7518
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78fefbf466369674baccac0682f94d6e
+      internalID: -428977758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7160
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be8eb533eefc8684ca3de4f9b9e2316d
+      internalID: -507342026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_15
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 7160
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffe735d27afe9a0459375f579ff0eeec
+      internalID: -2121295516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_16
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 7160
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dfb7d156adb0414cbf5c839c2b23db7
+      internalID: -1259930570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_17
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 7160
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4400452234af014ba74dd590f2ba736
+      internalID: 100166889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_18
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 7160
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 288b1fe9009a27d40b29c07ed906b647
+      internalID: -2120914073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_19
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 7160
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 442523b75aecbe640aa05646826b9e6c
+      internalID: 732300849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_20
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 7160
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8589b6a1d3fe934c893e3570f2ae3a6
+      internalID: -1846840014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6802
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 384e9828fe205a74f9df728cc5e8fdcc
+      internalID: 854592407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_22
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 6802
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cf1ee18a23475843bfb532e6100fefe
+      internalID: -1060440181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_23
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 6802
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f24ef9631994ce44d99c0355c61e6da2
+      internalID: -1405546617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_24
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 6802
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 767fac97cc56b504f8ce57322aaa406e
+      internalID: 1487952790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_25
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 6802
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c631dcebcdde291498803f045dcda76b
+      internalID: -2019525184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_26
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 6802
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb9d247ae642653438fba2d1690f34ec
+      internalID: -261823920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_27
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 6802
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ec617bc73dd82248a51040b1752d782
+      internalID: -1758444552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6444
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d89aa4e7de6bea64abbe4963121a1685
+      internalID: 2020221271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_29
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 6444
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd17173225ef4cc42a04d8278057cb71
+      internalID: -1008657439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_30
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 6444
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae694168f888ca14a92e8a30469e2e0c
+      internalID: -1252893805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_31
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 6444
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad5648cbffc9e754393cba61fef096c3
+      internalID: 513133245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_32
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 6444
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 213e033953e290448875532647a8d860
+      internalID: -540455573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_33
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 6444
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 393dd6a8fca22f043bb9f3abf997e216
+      internalID: 1338550128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_34
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 6444
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d09a7ae98244e9458f279d8ced2acb3
+      internalID: 1849904950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6086
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a63306b0ce2ad0f448e170c8f6815bf0
+      internalID: 1197629285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_36
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 6086
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a3507caf2f2f83438e1643b43a3af9f
+      internalID: 1885370309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_37
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 6086
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae60944dded83164597a9e686e92edfe
+      internalID: 1978713912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_38
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 6086
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45d18de6d3602b142a8afeb2164d8057
+      internalID: -511720774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_39
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 6086
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df9500e84d9a06444a68ae541e3a5fff
+      internalID: 827506632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_40
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 6086
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e130b42afea3f9429b107f448347858
+      internalID: 1293868887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_41
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 6086
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 549904e3fa95c354ab5b6e36813e432b
+      internalID: -1085279900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5728
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbaf2a9f04023f4469e65c5eedd58e25
+      internalID: 1101496105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_43
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 5728
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62a1aabf60437474298d96628c5d2312
+      internalID: 625251162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_44
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 5728
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cd5ea7a5ab066e4d9ac5c4fc02831ec
+      internalID: 143857651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_45
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 5728
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d20ca130bd598246af561344e717348
+      internalID: 1313355197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_46
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 5728
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77ccdc4d5631a0e4daf4ab40df1d7d3d
+      internalID: 1603803394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_47
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 5728
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 733d15e95dc3a23418b5c52b1dfd54f2
+      internalID: 109291658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_48
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 5728
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 032ddde0ba341ff4fb2c1cf450fff3f9
+      internalID: 188588709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5370
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fad267ec7c91b5442987423ceb15c9a9
+      internalID: 833821616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_50
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 5370
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b8925d3ae933b5449267c5883d5ccbe
+      internalID: 193262813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_51
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 5370
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9092cc7e96d93df47b43072fd188cc5e
+      internalID: -706915070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_52
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 5370
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb19308d3ea940246b1b0076c676ad23
+      internalID: -1887776857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_53
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 5370
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66696da7fdcb5a64bbd80fe1fcce18df
+      internalID: 523685249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_54
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 5370
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 402297be9fb777040bc377288a6d0152
+      internalID: 52845741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_55
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 5370
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72f556bd01e85ab42af6e62e7c1e2301
+      internalID: -1740680786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5012
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94ae660317d63134d96e5f6086688ae7
+      internalID: 1885845565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_57
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 5012
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c26be1472ff2df4e88e16b24fa21349
+      internalID: 1676911086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_58
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 5012
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cde09111648e424686288926876b63d
+      internalID: 172055725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_59
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 5012
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b07219f79cec98f49a7327488fc0ae3b
+      internalID: 390625283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_60
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 5012
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cadf40df765d1d4694afb97c5d483f3
+      internalID: -937091348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_61
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 5012
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5808c31dc9b1e8c47b8a128849b28a7c
+      internalID: -1025969374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_62
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 5012
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5918242e1f5ff6848aac4da98933db58
+      internalID: -1009400912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4654
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c640eb2c93517340ba72857dc6d11d6
+      internalID: -959461665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_64
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 4654
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa7d067859cce6b49afe08bef1a64de7
+      internalID: -1812530316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_65
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 4654
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ea0eed53ed5db8479b9028801cfa1cd
+      internalID: -607173958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_66
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 4654
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 076e014ccb149e547a4b1e2b065fbd11
+      internalID: 640163359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_67
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 4654
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ece5a25f7b825f4dbda18ed91416036
+      internalID: 456061944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_68
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 4654
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b63407fef78dd8d438b09254ebf6ca25
+      internalID: 301211785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_69
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 4654
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d072ac3764ef1794cb5fab0d34739b12
+      internalID: 1785550288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4296
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c09771b6d9a332f4db9af030d4ae82e0
+      internalID: 1121983293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_71
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 4296
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72fd74d3a17aa384ea240f7850092de4
+      internalID: -2005579166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_72
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 4296
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a2343af760e0c24ab9e9c078d389feb
+      internalID: -348940736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_73
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 4296
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fea787b9781aef14a8a33cb354d21301
+      internalID: -155695485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_74
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 4296
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9c139b7b90577c42880394d1e1d3f61
+      internalID: -21656790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_75
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 4296
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0960c98e91cf02540acb06c2d34a696b
+      internalID: 557765932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_76
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 4296
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dfeed41c7b01324db2df146b1faeb80
+      internalID: -1353428993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_77
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3938
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a860242eea7b89e45a571f025f958a6e
+      internalID: -631483600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_78
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 3938
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86694adbd98f2ea418f46c8a2d382ef6
+      internalID: 1721526082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_79
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 3938
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54a58c47b2a02a7488337b370760ca8d
+      internalID: -115802926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_80
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 3938
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10ec7ed6a69002842b54fbee77d115ae
+      internalID: -2038737918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_81
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 3938
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e706b4cd2c8de324d89628b92700f5b5
+      internalID: 912135415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_82
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 3938
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c2f4ccc31f3cbb42bdea0c4c9207bc4
+      internalID: 1091815029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_83
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 3938
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72b8edfec30429947bdcbb6738cce0f0
+      internalID: 1467397695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3580
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e2ae134b4c279345825f17e6068cf22
+      internalID: -1881746146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_85
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 3580
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3b4b2fa880994c4586366e1ab96a06f
+      internalID: -1019607800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_86
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 3580
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c178d278bed2f2249a4a83ff78708965
+      internalID: -910242611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_87
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 3580
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f5a8d1ac82561847bc8cc7fa5460a2c
+      internalID: -443436846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_88
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 3580
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 145e8d0b413aa3d40aead59583896385
+      internalID: 1903497561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_89
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 3580
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd7f3786a3a279149ba798a07e4b22f7
+      internalID: 1347927068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_90
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 3580
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa498870639106f4b8b3fa265426c542
+      internalID: 1855083479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_91
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3222
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ce389633db88394190efec74ad419ec
+      internalID: 1902782790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_92
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 3222
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 943bddaca1c289a4d9130ddf3fdb25ff
+      internalID: -1622199915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_93
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 3222
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a18fc34f22c395745963926934136cc2
+      internalID: -453931742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_94
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 3222
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6200f50788f20dc4694b7d36528d2e6e
+      internalID: -429480835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_95
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 3222
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a454b355fc4497f4988fd768c85ef7ef
+      internalID: 679417516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_96
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 3222
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a15093105c2d14499da9d73c658678a
+      internalID: 152453624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_97
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 3222
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb73d68523c3c664d8979cef58ba114e
+      internalID: 303332394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_98
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2864
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb262b99f29cade4aa211c2d1ca4f02c
+      internalID: 1943900690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_99
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 2864
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c42f0a85e006d140890b92f606960e2
+      internalID: -793432597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_100
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 2864
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe4e3dca8feb72f4aa2ab6948e89a6d5
+      internalID: -1044206759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_101
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 2864
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b67d6e985ef78f4390c1a62f8fde130
+      internalID: 54706794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_102
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 2864
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0383c8febd53014f98ecaa33c754bf0
+      internalID: -464449305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_103
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 2864
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 938f4297e56c6be469c13b9576326698
+      internalID: 1166281010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_104
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 2864
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c43b9e21874e23540a8b1d631218b72e
+      internalID: -2010422971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2506
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0c78138b0889b943a72580d4e699cf9
+      internalID: 1968967994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_106
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 2506
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d22cc28b21f7f04eb5a7afd00d6e121
+      internalID: 244008618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_107
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 2506
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03ef0ceb03de1904b9d0be64351d217d
+      internalID: 1862689228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_108
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 2506
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9786b2e4d67e3174b8c2be180724cf8f
+      internalID: -1666389833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_109
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 2506
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dd83dc65ed3f244981f5f485be8e094
+      internalID: 902220128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_110
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 2506
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d95b57719610c42409f0056e8b6f6403
+      internalID: 988813304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_111
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 2506
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c12f097293fa074daf8b4f17d7f59b3
+      internalID: 1640293385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_112
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2148
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecc2e02fe047daa49abc2cc6e85380bf
+      internalID: -1256725005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_113
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 2148
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2306cc09aecd41a478e457952b8959cc
+      internalID: -1052825079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_114
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 2148
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b832db3da5cb6be40ae0f353261961f9
+      internalID: -2030115105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_115
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 2148
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6099331dbac95b4fae32962d934ebaf
+      internalID: 101772424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_116
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 2148
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00e226fa55f10f64783406cce4f861e7
+      internalID: 1722632976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_117
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 2148
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08263597bbc7d404087f7635fe8e0761
+      internalID: -287525988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_118
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 2148
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb2b3ac011fb42e41a375ad77d622df9
+      internalID: -1164850251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_119
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1790
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3eb965c7955cde419c17a8668ebe2e0
+      internalID: -1700538384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_120
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1790
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea0ba948d43eb35488a3fe7c8b1e57dd
+      internalID: -169162541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_121
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1790
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 217e5e438525b0a46ae9d0bd5f191649
+      internalID: -2067564215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_122
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1790
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66a08571e7bf49a4883f9ec223bc1425
+      internalID: -876840822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_123
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1790
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8da8fbd5fe111a4ca0ccf20baf0357e
+      internalID: -191934128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_124
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 1790
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5f1f378dfefe5342b22573a5630fd60
+      internalID: -917469363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_125
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 1790
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7ecb1c1fabe7b34893e81388c11ce95
+      internalID: 1410158081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_126
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1432
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd90882c9f7bdaf4a9836230bca42440
+      internalID: 2103355795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_127
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1432
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4781eec6d2dcbb4a8c2a9c3842d7c5f
+      internalID: -701990550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_128
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1432
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10285c2dd4fd9ad4eb5c7f7e1b2152bf
+      internalID: 426912215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_129
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1432
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d37cf6bc6d1bd98418af0604936bfdbe
+      internalID: 1411861795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_130
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1432
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ad607b0aa90c3b4eacf0809bb43a47c
+      internalID: -1981423085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_131
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 1432
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3fd400dd1079df46b3c7addbe6cf1a3
+      internalID: -2088152079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_132
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 1432
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a9622d370dc0bc4e86abe59a68d97e9
+      internalID: -355676043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_133
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1074
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee05af29a80afad49b4e7202fe3d7ff1
+      internalID: 831317566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_134
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1074
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d712d77614b2c6941addf7d8a504a334
+      internalID: 908190623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_135
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1074
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da0ca57592353c04e9c329b9205a65ad
+      internalID: -1827403932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_136
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1074
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96462b22c6f35a9408caf110e8f9a23a
+      internalID: 1754189871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_137
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1074
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42f6f938c067d6c44a97a14bca1c7b9d
+      internalID: 1985848320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_138
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 1074
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eef9f898f927eb848bee333ecfb331e2
+      internalID: -2034339307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_139
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 1074
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c37f9998aaecae4a934adb141456182
+      internalID: 1897272467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_140
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 716
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9c5e67370e4e754aba1918832a23cab
+      internalID: -1287119111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_141
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 716
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d3f1f27d43308742a24882f6c7cfdbf
+      internalID: 99530522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_142
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 716
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4df83a9e3376a340b92a965060a2b9d
+      internalID: -345485096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_143
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 716
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc8147fc99745fe4ebf893aa8fa08e4a
+      internalID: 2110638744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_144
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 716
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 084dcfface15a3c4894297934c350ca0
+      internalID: -816904112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_145
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 716
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa4591037039f5f40ab9d9d78b9417ec
+      internalID: -1022121611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_146
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 716
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c94321a55bd7064fa4e2017207e932f
+      internalID: 919305863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_147
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 358
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6b56f0a1cede354695ae3cf2e9d0158
+      internalID: 994858111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_148
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 358
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 132ac91726fc3e04cb4ca0a5d4216ae9
+      internalID: -89160018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_149
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 358
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2251e92e0667154bb2ef4d9a54fd88a
+      internalID: 1707472122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_150
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 358
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56b6292245b8c7e4196a4d9eeecee05e
+      internalID: -1218273010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_151
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 358
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2327efc8c38b2f846b8b272f398472b9
+      internalID: 1740512123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_152
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 358
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da9a95b7604dc154da321c3cb3032537
+      internalID: -1840586899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_153
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 358
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7101427f90777c40b36571e8a07642a
+      internalID: 269696888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_154
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 628c78585cfd2d543974f262e88ddecd
+      internalID: -6352510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_155
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04377489c62350a45bac2ad927b4fc74
+      internalID: 698730759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_156
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c51400af9aca00e43ba280a5433239e4
+      internalID: -523457538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_157
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61f45214c18c713439bc95ca1833d03c
+      internalID: 988568820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_158
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 0
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 545676d9cac6d0c4da8a1649b5839a9f
+      internalID: -1578308145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_159
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 0
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ee566559659f424998940c0a638a160
+      internalID: 658399997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: morshu rtx_160
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 0
+        width: 640
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78b6937273c764e419f8136c7de8c414
+      internalID: 33322334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 01dab0f161648624289714d5e29da23c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      morshu rtx_0: 952015833
+      morshu rtx_1: 1820002932
+      morshu rtx_10: 1345009957
+      morshu rtx_100: -1044206759
+      morshu rtx_101: 54706794
+      morshu rtx_102: -464449305
+      morshu rtx_103: 1166281010
+      morshu rtx_104: -2010422971
+      morshu rtx_105: 1968967994
+      morshu rtx_106: 244008618
+      morshu rtx_107: 1862689228
+      morshu rtx_108: -1666389833
+      morshu rtx_109: 902220128
+      morshu rtx_11: 394751591
+      morshu rtx_110: 988813304
+      morshu rtx_111: 1640293385
+      morshu rtx_112: -1256725005
+      morshu rtx_113: -1052825079
+      morshu rtx_114: -2030115105
+      morshu rtx_115: 101772424
+      morshu rtx_116: 1722632976
+      morshu rtx_117: -287525988
+      morshu rtx_118: -1164850251
+      morshu rtx_119: -1700538384
+      morshu rtx_12: -281997147
+      morshu rtx_120: -169162541
+      morshu rtx_121: -2067564215
+      morshu rtx_122: -876840822
+      morshu rtx_123: -191934128
+      morshu rtx_124: -917469363
+      morshu rtx_125: 1410158081
+      morshu rtx_126: 2103355795
+      morshu rtx_127: -701990550
+      morshu rtx_128: 426912215
+      morshu rtx_129: 1411861795
+      morshu rtx_13: -428977758
+      morshu rtx_130: -1981423085
+      morshu rtx_131: -2088152079
+      morshu rtx_132: -355676043
+      morshu rtx_133: 831317566
+      morshu rtx_134: 908190623
+      morshu rtx_135: -1827403932
+      morshu rtx_136: 1754189871
+      morshu rtx_137: 1985848320
+      morshu rtx_138: -2034339307
+      morshu rtx_139: 1897272467
+      morshu rtx_14: -507342026
+      morshu rtx_140: -1287119111
+      morshu rtx_141: 99530522
+      morshu rtx_142: -345485096
+      morshu rtx_143: 2110638744
+      morshu rtx_144: -816904112
+      morshu rtx_145: -1022121611
+      morshu rtx_146: 919305863
+      morshu rtx_147: 994858111
+      morshu rtx_148: -89160018
+      morshu rtx_149: 1707472122
+      morshu rtx_15: -2121295516
+      morshu rtx_150: -1218273010
+      morshu rtx_151: 1740512123
+      morshu rtx_152: -1840586899
+      morshu rtx_153: 269696888
+      morshu rtx_154: -6352510
+      morshu rtx_155: 698730759
+      morshu rtx_156: -523457538
+      morshu rtx_157: 988568820
+      morshu rtx_158: -1578308145
+      morshu rtx_159: 658399997
+      morshu rtx_16: -1259930570
+      morshu rtx_160: 33322334
+      morshu rtx_17: 100166889
+      morshu rtx_18: -2120914073
+      morshu rtx_19: 732300849
+      morshu rtx_2: 1414351755
+      morshu rtx_20: -1846840014
+      morshu rtx_21: 854592407
+      morshu rtx_22: -1060440181
+      morshu rtx_23: -1405546617
+      morshu rtx_24: 1487952790
+      morshu rtx_25: -2019525184
+      morshu rtx_26: -261823920
+      morshu rtx_27: -1758444552
+      morshu rtx_28: 2020221271
+      morshu rtx_29: -1008657439
+      morshu rtx_3: 1554068905
+      morshu rtx_30: -1252893805
+      morshu rtx_31: 513133245
+      morshu rtx_32: -540455573
+      morshu rtx_33: 1338550128
+      morshu rtx_34: 1849904950
+      morshu rtx_35: 1197629285
+      morshu rtx_36: 1885370309
+      morshu rtx_37: 1978713912
+      morshu rtx_38: -511720774
+      morshu rtx_39: 827506632
+      morshu rtx_4: -1090920457
+      morshu rtx_40: 1293868887
+      morshu rtx_41: -1085279900
+      morshu rtx_42: 1101496105
+      morshu rtx_43: 625251162
+      morshu rtx_44: 143857651
+      morshu rtx_45: 1313355197
+      morshu rtx_46: 1603803394
+      morshu rtx_47: 109291658
+      morshu rtx_48: 188588709
+      morshu rtx_49: 833821616
+      morshu rtx_5: 1454631559
+      morshu rtx_50: 193262813
+      morshu rtx_51: -706915070
+      morshu rtx_52: -1887776857
+      morshu rtx_53: 523685249
+      morshu rtx_54: 52845741
+      morshu rtx_55: -1740680786
+      morshu rtx_56: 1885845565
+      morshu rtx_57: 1676911086
+      morshu rtx_58: 172055725
+      morshu rtx_59: 390625283
+      morshu rtx_6: -264545367
+      morshu rtx_60: -937091348
+      morshu rtx_61: -1025969374
+      morshu rtx_62: -1009400912
+      morshu rtx_63: -959461665
+      morshu rtx_64: -1812530316
+      morshu rtx_65: -607173958
+      morshu rtx_66: 640163359
+      morshu rtx_67: 456061944
+      morshu rtx_68: 301211785
+      morshu rtx_69: 1785550288
+      morshu rtx_7: -1199391505
+      morshu rtx_70: 1121983293
+      morshu rtx_71: -2005579166
+      morshu rtx_72: -348940736
+      morshu rtx_73: -155695485
+      morshu rtx_74: -21656790
+      morshu rtx_75: 557765932
+      morshu rtx_76: -1353428993
+      morshu rtx_77: -631483600
+      morshu rtx_78: 1721526082
+      morshu rtx_79: -115802926
+      morshu rtx_8: 1974246329
+      morshu rtx_80: -2038737918
+      morshu rtx_81: 912135415
+      morshu rtx_82: 1091815029
+      morshu rtx_83: 1467397695
+      morshu rtx_84: -1881746146
+      morshu rtx_85: -1019607800
+      morshu rtx_86: -910242611
+      morshu rtx_87: -443436846
+      morshu rtx_88: 1903497561
+      morshu rtx_89: 1347927068
+      morshu rtx_9: -2096776892
+      morshu rtx_90: 1855083479
+      morshu rtx_91: 1902782790
+      morshu rtx_92: -1622199915
+      morshu rtx_93: -453931742
+      morshu rtx_94: -429480835
+      morshu rtx_95: 679417516
+      morshu rtx_96: 152453624
+      morshu rtx_97: 303332394
+      morshu rtx_98: 1943900690
+      morshu rtx_99: -793432597
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

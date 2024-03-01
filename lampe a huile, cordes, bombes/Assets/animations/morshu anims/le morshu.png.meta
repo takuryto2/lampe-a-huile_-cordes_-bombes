@@ -1,0 +1,1962 @@
+fileFormatVersion: 2
+guid: 4762d1ecaaeeacd439d20b8e52ffaa6e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: le morshu_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2629
+        width: 384
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eaec822e42cc784d87ae438a5a20280
+      internalID: 1740263682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: le morshu_1
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 2629
+        width: 384
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34f477f2141243a49a489ad6e7e403e8
+      internalID: -514836763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: le morshu_2
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 2629
+        width: 384
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 403de0e4d8087e04c858be03dc4b37fb
+      internalID: -1451747304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: le morshu_3
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 2629
+        width: 384
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deb16aab289cca04ba5367d166c11ab1
+      internalID: 617488178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: le morshu_4
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 2629
+        width: 384
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb677dd9e9a90fe419c62e0c87ac0257
+      internalID: 897470388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: le morshu_5
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 2629
+        width: 384
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3559b646c13924478cf670222ccac5a
+      internalID: -1378201252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: le morshu_6
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 2629
+        width: 384
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91d46a60de58ae9468dfe02f1ff10e52
+      internalID: -1611961657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: le morshu_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2390
+        width: 384
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7da2c09c9b99d154da2ec191f3a0117f
+      internalID: -448184860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: le morshu_8
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 2390
+        width: 384
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dc4e4cb4e0614143be83c5936da9853
+      internalID: 1571766743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: le morshu_9
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 2390
+        width: 384
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c774049b46e91a84d8bdec7dbe85f7f9
+      internalID: -918734166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: le morshu_10
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 2390
+        width: 384
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 432b3ef2e7a630c489e1d3eda5c3da96
+      internalID: -1219412392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: le morshu_11
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 2390
+        width: 384
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d72218a3df97b24ab92f240d71ed461
+      internalID: 1793268036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: le morshu_12
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 2390
+        width: 384
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 579e6bfb920ad5449b7f962d60b021ea
+      internalID: -1296699573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: le morshu_13
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 2390
+        width: 384
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aff2e120727f66541b4d6f5dac9fb65f
+      internalID: -1291505174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: le morshu_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2151
+        width: 384
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 863ece3b657e0914f96b98bfd429ca73
+      internalID: 2029163400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: le morshu_15
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 2151
+        width: 384
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 416f44c622c27e848a5c073eca154645
+      internalID: -510302430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: le morshu_16
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 2151
+        width: 384
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a382d7d251593f47b7c2e3c5fdc4241
+      internalID: -2034163371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: le morshu_17
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 2151
+        width: 384
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27ad65c01015ed741994c687fff2738a
+      internalID: 1616021049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: le morshu_18
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 2151
+        width: 384
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c822347a7901f946adef3e71d04885b
+      internalID: -1065772779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: le morshu_19
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 2151
+        width: 384
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c83473c4c0a88594d92a02dd50fd05f7
+      internalID: 1314345068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: le morshu_20
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 2151
+        width: 384
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 922076fb04051564fb99b5112d203339
+      internalID: 912580036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: le morshu_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1912
+        width: 384
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92adfad2c829f2d4e9e86ab5ccc18934
+      internalID: -1477760813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: le morshu_22
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1912
+        width: 384
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e327c0c295a46414e999dfdcfbeeb866
+      internalID: 1794092214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: le morshu_23
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1912
+        width: 384
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c16460e8d32087429055a3d92c18b21
+      internalID: 376621451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: le morshu_24
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1912
+        width: 384
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8320c60ba10900f4a892cee43074945c
+      internalID: -393340397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: le morshu_25
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1912
+        width: 384
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26b103f50cf515b4fa978cb4e572d063
+      internalID: 1811258471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: le morshu_26
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1912
+        width: 384
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f4098f1319110249867d1ab1d80c331
+      internalID: 1023234566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: le morshu_27
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 1912
+        width: 384
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 125ce4e2a173c3641924ecfd5efaac75
+      internalID: 297785335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: le morshu_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1673
+        width: 384
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a4f2d2028f69114fa80a7580baaf047
+      internalID: 655922081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: le morshu_29
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1673
+        width: 384
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60c4b009be0426c4a9dd74b4698fd296
+      internalID: 1671016233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: le morshu_30
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1673
+        width: 384
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65a87ea189b69bf4eb88ead5c4080209
+      internalID: 1093241788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: le morshu_31
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1673
+        width: 384
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0c4b3a9a967ff84f81f7fa5c22496dd
+      internalID: -615690988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: le morshu_32
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1673
+        width: 384
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0900ef31f916af64285758e5ef417fac
+      internalID: 2113283827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: le morshu_33
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1673
+        width: 384
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de8a56bd24321154faeab80cde9ac36d
+      internalID: -952955635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: le morshu_34
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 1673
+        width: 384
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e4bc35a51e892340b58478b1f3edc8c
+      internalID: -1607782650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: le morshu_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1434
+        width: 384
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 367404807a8d439499b959fd2a57d210
+      internalID: -847420473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: le morshu_36
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1434
+        width: 384
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da319370f07c3b24bbe9c0e49bb171f1
+      internalID: 520332168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: le morshu_37
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1434
+        width: 384
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53fc83ed162117d42a293785ade2b0db
+      internalID: 209910736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: le morshu_38
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1434
+        width: 384
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cea9f925a4d72a44685e28550c7d67da
+      internalID: -2104939112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: le morshu_39
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1434
+        width: 384
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6dfff028e8a1664cbedd8c0f0138585
+      internalID: 1404361943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: le morshu_40
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1434
+        width: 384
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7e7f5d302d546b41a702a99814e97b8
+      internalID: -1530779743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: le morshu_41
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 1434
+        width: 384
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b5065c325725234f9f332b5e32d2bc3
+      internalID: 563760250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: le morshu_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1195
+        width: 384
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33a2c30526df29645a6782f28972d1d6
+      internalID: -693803940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: le morshu_43
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1195
+        width: 384
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba37182dbac61574c9df749269a8e295
+      internalID: -1382234722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: le morshu_44
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1195
+        width: 384
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49cfd9ac6797b7b408f16c47758d2c3e
+      internalID: -571121387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: le morshu_45
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1195
+        width: 384
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11b9941829a472349ab474fbf21d87eb
+      internalID: -1952469107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: le morshu_46
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1195
+        width: 384
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d2f683c89869314ab35cda7fa322c4c
+      internalID: -1154771651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: le morshu_47
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1195
+        width: 384
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffda43ae8d4829a4b9913261d404e30c
+      internalID: -1895671959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: le morshu_48
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 1195
+        width: 384
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d0e7ecd2e363274bae4d2dbfef6bdd7
+      internalID: 1624342243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: le morshu_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 956
+        width: 384
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29a244a8c383ab3479fd9b3b5a3455b0
+      internalID: 1945071120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: le morshu_50
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 956
+        width: 384
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f8400511c068fa47b98ef585d31a461
+      internalID: -494582038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: le morshu_51
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 956
+        width: 384
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e78edae3659d6a42a1a013041381906
+      internalID: -608118437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: le morshu_52
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 956
+        width: 384
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47a59ed7bcc51f1428d2b5564e185b8e
+      internalID: -195315831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: le morshu_53
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 956
+        width: 384
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: befcfc6e7c22be04b852937d6250d46f
+      internalID: -1145591423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: le morshu_54
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 956
+        width: 384
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f57eefbc3e16e2441b354b225fe95961
+      internalID: -1454532040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: le morshu_55
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 956
+        width: 384
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94582eb68d54a68439b18bdc6dead0b1
+      internalID: -465749116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: le morshu_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 717
+        width: 384
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79188422c5b5793458b5f1a0d74cf521
+      internalID: 1511144651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: le morshu_57
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 717
+        width: 384
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce4fd9b83287fc444958a808f999c55b
+      internalID: 710165636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: le morshu_58
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 717
+        width: 384
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f965aaf3f5066846998008723536085
+      internalID: 1099297128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: le morshu_59
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 717
+        width: 384
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3feb1e07991d0014eb7ca95d0a034075
+      internalID: -87045368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: le morshu_60
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 717
+        width: 384
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f4874e6725342341a749f442f7f1a1f
+      internalID: -1879329909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: le morshu_61
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 717
+        width: 384
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08c794198facf504b926eedfe460f3b1
+      internalID: 209345897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: le morshu_62
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 717
+        width: 384
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfaba50403ba5614998dd00d63b7a564
+      internalID: -1504064534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: le morshu_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 478
+        width: 384
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64a3336d0b88e20459f6279b2a2c1315
+      internalID: 355889205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: le morshu_64
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 478
+        width: 384
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e5fdccb732e93b48a01d8b396d38f9d
+      internalID: -1930478565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: le morshu_65
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 478
+        width: 384
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 953cf8a9cfc338e4982b53fcfea0eb31
+      internalID: 1524860243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: le morshu_66
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 478
+        width: 384
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 148d3764fbeec604792fa36b41f8e338
+      internalID: 1741862701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: le morshu_67
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 478
+        width: 384
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1674fd7a686a7fa4f84245252e25eaf5
+      internalID: 389357698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: le morshu_68
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 478
+        width: 384
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b64a6e0898fd37a41aa85166c96a8d69
+      internalID: 1580305759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: le morshu_69
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 478
+        width: 384
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e4af777911b0dd4d917a2725d100911
+      internalID: -17551862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: le morshu_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 239
+        width: 384
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f5728a47b8672a46bf3e4a3cd8f26a2
+      internalID: -1440637487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: le morshu_71
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 239
+        width: 384
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f8ac82a372a46940bddc839a55f18f8
+      internalID: -1271695410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: le morshu_72
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 239
+        width: 384
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9af1440f997c82b4da32f964996abc4f
+      internalID: 1193064676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: le morshu_73
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 239
+        width: 384
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb7819020e18ae5418a5bcff9ec7632a
+      internalID: -35330601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: le morshu_74
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 239
+        width: 384
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43d9dfd98aed8f64eba98e96e238d1ae
+      internalID: 1669475476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: le morshu_75
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 239
+        width: 384
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8f62fc6c19412741a2e769bb1296812
+      internalID: -606037408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: le morshu_76
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 239
+        width: 384
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62024b1065e248c40a0ab8475f7394f8
+      internalID: 1306696301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: le morshu_77
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 384
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8557f62af0291a469fe81672978bf9b
+      internalID: 880588713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: le morshu_78
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 384
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8facb2a96d02ea4186d96963f495181
+      internalID: 903905369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: le morshu_79
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 384
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c638b4d4a3715bd4da336041ef7b076c
+      internalID: 1454286777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: le morshu_80
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 384
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67cda20624c731c44bf7b031964a580d
+      internalID: -6877007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: le morshu_81
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 384
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b68dc68ea7572b34cb10f738cd487e2c
+      internalID: 1581213333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: le morshu_82
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 384
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69119c843590abc4db1cfbe9c7d94138
+      internalID: -479598792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: le morshu_83
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 0
+        width: 384
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 252b889e97ad4f54c8b4b371a266e411
+      internalID: 1898234197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      le morshu_0: 1740263682
+      le morshu_1: -514836763
+      le morshu_10: -1219412392
+      le morshu_11: 1793268036
+      le morshu_12: -1296699573
+      le morshu_13: -1291505174
+      le morshu_14: 2029163400
+      le morshu_15: -510302430
+      le morshu_16: -2034163371
+      le morshu_17: 1616021049
+      le morshu_18: -1065772779
+      le morshu_19: 1314345068
+      le morshu_2: -1451747304
+      le morshu_20: 912580036
+      le morshu_21: -1477760813
+      le morshu_22: 1794092214
+      le morshu_23: 376621451
+      le morshu_24: -393340397
+      le morshu_25: 1811258471
+      le morshu_26: 1023234566
+      le morshu_27: 297785335
+      le morshu_28: 655922081
+      le morshu_29: 1671016233
+      le morshu_3: 617488178
+      le morshu_30: 1093241788
+      le morshu_31: -615690988
+      le morshu_32: 2113283827
+      le morshu_33: -952955635
+      le morshu_34: -1607782650
+      le morshu_35: -847420473
+      le morshu_36: 520332168
+      le morshu_37: 209910736
+      le morshu_38: -2104939112
+      le morshu_39: 1404361943
+      le morshu_4: 897470388
+      le morshu_40: -1530779743
+      le morshu_41: 563760250
+      le morshu_42: -693803940
+      le morshu_43: -1382234722
+      le morshu_44: -571121387
+      le morshu_45: -1952469107
+      le morshu_46: -1154771651
+      le morshu_47: -1895671959
+      le morshu_48: 1624342243
+      le morshu_49: 1945071120
+      le morshu_5: -1378201252
+      le morshu_50: -494582038
+      le morshu_51: -608118437
+      le morshu_52: -195315831
+      le morshu_53: -1145591423
+      le morshu_54: -1454532040
+      le morshu_55: -465749116
+      le morshu_56: 1511144651
+      le morshu_57: 710165636
+      le morshu_58: 1099297128
+      le morshu_59: -87045368
+      le morshu_6: -1611961657
+      le morshu_60: -1879329909
+      le morshu_61: 209345897
+      le morshu_62: -1504064534
+      le morshu_63: 355889205
+      le morshu_64: -1930478565
+      le morshu_65: 1524860243
+      le morshu_66: 1741862701
+      le morshu_67: 389357698
+      le morshu_68: 1580305759
+      le morshu_69: -17551862
+      le morshu_7: -448184860
+      le morshu_70: -1440637487
+      le morshu_71: -1271695410
+      le morshu_72: 1193064676
+      le morshu_73: -35330601
+      le morshu_74: 1669475476
+      le morshu_75: -606037408
+      le morshu_76: 1306696301
+      le morshu_77: 880588713
+      le morshu_78: 903905369
+      le morshu_79: 1454286777
+      le morshu_8: 1571766743
+      le morshu_80: -6877007
+      le morshu_81: 1581213333
+      le morshu_82: -479598792
+      le morshu_83: 1898234197
+      le morshu_9: -918734166
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -26,6 +26,7 @@ public class Bomb : MonoBehaviour
         if (tickBoom <= 0f)
         {
             BOOM();
+            player.SetBool(true);
         }
     }
 
@@ -36,7 +37,7 @@ public class Bomb : MonoBehaviour
             Debug.Log("caca");
             player.grid.GetCell(explodingCells[i].gridPos.Item1, explodingCells[i].gridPos.Item2).ExplodeCell();
         }*/
-        Instantiate(explosionPrefab, transform.position, Quaternion.identity);
+        Instantiate(explosionPrefab, transform.position, explosionPrefab.transform.rotation);
         StartCoroutine(CreateExplosions(Vector3.forward * player.grid.cellSpacement));
         StartCoroutine(CreateExplosions(Vector3.right * player.grid.cellSpacement));
         StartCoroutine(CreateExplosions(Vector3.back * player.grid.cellSpacement));

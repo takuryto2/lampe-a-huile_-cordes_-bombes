@@ -53,6 +53,8 @@ public class PlayerMovement : MonoBehaviour
 
     private bool terrorism;
 
+    [SerializeField] private bool dead = false;
+
     private void Awake()
     {
         instance = this;
@@ -122,10 +124,6 @@ public class PlayerMovement : MonoBehaviour
                 isMoving = false;
                 TryMove();
             }
-        }
-        if (cellOn.isExploding)
-        {
-            Death();
         }
     }
 
@@ -249,8 +247,17 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+    public void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Explosion"))
+        {
+            Death();
+        }
+    }
+
     private void Death()
     {
+        dead = true;
         moveSpeed = 0;
         gameObject.SetActive(false);
     }

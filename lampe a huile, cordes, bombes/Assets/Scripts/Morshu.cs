@@ -7,7 +7,7 @@ using UnityEngine.UIElements;
 public class Morshu : MonoBehaviour
 {
     [SerializeField] private GameGrid grid;
-    [SerializeField] private Player player;
+    [SerializeField] private PlayerMovement player;
     [SerializeField] private Transform position;
     [SerializeField] private float cellSize;
     private Cell cellOn;
@@ -33,10 +33,10 @@ public class Morshu : MonoBehaviour
     {
         opened.Clear();
         closed.Clear();
-        float heuristique = GetHeuristique(cellOn, player.GetCellOn());
+        float heuristique = GetHeuristique(cellOn, player.cellOn);
         opened.Add(new Node(cellOn, heuristique, heuristique, null));
 
-        Astar(player.GetCellOn());
+        Astar(player.cellOn);
         pathToPlayerOne.Clear();
         GetPathFromClosedList(closed[closed.Count - 1], pathToPlayerOne);
         pathToPlayerOne.RemoveAt(pathToPlayerOne.Count - 1);

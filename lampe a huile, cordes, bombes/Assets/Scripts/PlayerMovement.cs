@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 using UnityEngine.UIElements;
 
 
@@ -260,6 +261,7 @@ public class PlayerMovement : MonoBehaviour
         dead = true;
         moveSpeed = 0;
         gameObject.SetActive(false);
+        SceneManager.LoadScene("Simon_GameOver");
     }
 
     public void SetBool(bool value)

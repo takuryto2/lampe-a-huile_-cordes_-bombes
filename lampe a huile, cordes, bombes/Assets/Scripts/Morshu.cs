@@ -1,32 +1,70 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using UnityEngine.UIElements;
+using static UnityEngine.EventSystems.EventTrigger;
 
 public class Morshu : MonoBehaviour
 {
     [SerializeField] private GameGrid grid;
     [SerializeField] private PlayerMovement player;
-    [SerializeField] private Transform position;
-    [SerializeField] private float cellSize;
+    [SerializeField] private Transform _transform;
     private Cell cellOn;
     private List<Node> opened = new List<Node>();
     private List<Node> closed = new List<Node>();
     private List<Node> pathToPlayerOne = new List<Node>();
     private float branchWeight = 1;
+    [SerializeField] bool startInTheMidle;
+    [SerializeField] bool snapToGrid;
+    private Entity entity;
+    private Vector3 lastPosition, targetPosition;
+    private float timer;
+    [SerializeField] private float moveSpeed;
+    private bool isMoving;
     void Start()
     {
-        InitPath();
-        cellOn = pathToPlayerOne[pathToPlayerOne.Count - 1].cell;
-        position.position = pathToPlayerOne[pathToPlayerOne.Count - 1].cell.pos;
-        pathToPlayerOne.RemoveAt(pathToPlayerOne.Count - 1);
-        pathToPlayerOne.Clear();
+        grid = GameGrid.instance;
+        player = PlayerMovement.instance;
+        if (startInTheMidle)
+        {
+            cellOn = grid.GetCell((grid.gridWidth - 1) / 2, (grid.gridHeight - 1) / 2);
+        }
+        else if (snapToGrid)
+        {
+            cellOn = grid.GetClosestCell(transform.position);
+        }
+        else
+        {
+            cellOn = grid.GetCell(_transform.position.x.ConvertTo<int>(), _transform.position.z.ConvertTo<int>());
+        }
+        entity = Entity.instance;
+        cellOn.SetEntity(entity);
+        transform.position = cellOn.pos;
+
+        lastPosition = cellOn.pos;
+
+        targetPosition = cellOn.pos;
+
+        isMoving = false;
     }
 
     void Update()
     {
-        
+        if (isMoving)
+        {
+            timer += Time.deltaTime * moveSpeed;
+            timer = Mathf.Clamp01(timer);
+            transform.position = Vector3.Lerp(lastPosition, targetPosition, timer);
+            if (timer == 1f)
+            {
+                InitPath();
+                targetPosition = pathToPlayerOne[pathToPlayerOne.Count - 1].cell.pos;
+                pathToPlayerOne.RemoveAt(pathToPlayerOne.Count - 1);
+                pathToPlayerOne.Clear();
+            }
+        }
     }
 
     private void InitPath()
@@ -149,6 +187,32 @@ public class Morshu : MonoBehaviour
             pathToFill.Add(value);
             GetPathFromClosedList(value.parent, pathToFill);
         }
+    }
+
+    public void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Explosion"))
+        {
+            Destroy(gameObject);
+        }
+    }
+
+    void MoveToCell(Cell cell)
+    {
+        lastPosition = cellOn.pos;
+
+        targetPosition = cell.pos;
+
+        cellOn.DeleteEntity();
+
+
+        cell.SetEntity(entity);
+
+        cellOn = cell;
+
+        isMoving = true;
+
+        timer = 0f;
     }
 
 }

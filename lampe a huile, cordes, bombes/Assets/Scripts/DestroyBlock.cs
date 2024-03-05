@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class DestroyBlock : MonoBehaviour
 {
-
     private void DestroyBlk()
     {
         Destroy(gameObject);

@@ -228,6 +228,68 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 11369557}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &25438839 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+  m_PrefabInstance: {fileID: 192401314}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &32502350
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 122197284}
+    m_Modifications:
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4123884329342633271, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_Name
+      value: Prefab Mur Destructible (9)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
 --- !u!1 &48660646
 GameObject:
   m_ObjectHideFlags: 0
@@ -333,6 +395,63 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 48660646}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &62789876
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 122197284}
+    m_Modifications:
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4123884329342633271, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_Name
+      value: Prefab Mur Destructible (7)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
 --- !u!1 &79832147
 GameObject:
   m_ObjectHideFlags: 0
@@ -438,6 +557,68 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 79832147}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &96346956
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1441500808}
+    m_Modifications:
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4123884329342633271, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_Name
+      value: Prefab Mur Destructible (11)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+--- !u!4 &103547580 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+  m_PrefabInstance: {fileID: 1601564592}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &111936010
 GameObject:
   m_ObjectHideFlags: 0
@@ -543,6 +724,49 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 111936010}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &122197283
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 122197284}
+  m_Layer: 0
+  m_Name: Murs destructibles (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &122197284
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 122197283}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1293056910}
+  - {fileID: 173548262}
+  - {fileID: 1716259303}
+  - {fileID: 103547580}
+  - {fileID: 1881597303}
+  - {fileID: 1807804166}
+  - {fileID: 538448660}
+  - {fileID: 1171682653}
+  - {fileID: 1781410410}
+  - {fileID: 697062391}
+  - {fileID: 1468421537}
+  - {fileID: 1782103526}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1 &135476248
 GameObject:
   m_ObjectHideFlags: 0
@@ -790,6 +1014,182 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 156478267}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &167214571
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 122197284}
+    m_Modifications:
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4123884329342633271, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_Name
+      value: Prefab Mur Destructible (11)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+--- !u!4 &173548262 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+  m_PrefabInstance: {fileID: 1043050295}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &185846222
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 726503759}
+    m_Modifications:
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4123884329342633271, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_Name
+      value: Prefab Mur Destructible (5)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+--- !u!1001 &192401314
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 726503759}
+    m_Modifications:
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4123884329342633271, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_Name
+      value: Prefab Mur Destructible
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
 --- !u!1 &203531980
 GameObject:
   m_ObjectHideFlags: 0
@@ -819,7 +1219,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -15.5, y: 27.5, z: -6}
-  m_LocalScale: {x: 1, y: 1, z: 24}
+  m_LocalScale: {x: 0.9, y: 1, z: 23.9}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2130749313}
@@ -895,6 +1295,68 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 203531980}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &271320764
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 724378885}
+    m_Modifications:
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4123884329342633271, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_Name
+      value: Prefab Mur Destructible (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+--- !u!4 &279859264 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+  m_PrefabInstance: {fileID: 1006454757}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &317585910
 GameObject:
   m_ObjectHideFlags: 0
@@ -1247,6 +1709,83 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 366623247}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &369654302 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+  m_PrefabInstance: {fileID: 1341125635}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &372499938 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+  m_PrefabInstance: {fileID: 728872714}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &382955008
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1441500808}
+    m_Modifications:
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4123884329342633271, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_Name
+      value: Prefab Mur Destructible (7)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+--- !u!4 &385415673 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+  m_PrefabInstance: {fileID: 783660269}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &395038769 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+  m_PrefabInstance: {fileID: 1649459630}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &405406117
 GameObject:
   m_ObjectHideFlags: 0
@@ -1324,7 +1863,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -4, y: 27.5, z: 5.5}
-  m_LocalScale: {x: 24, y: 1, z: 1}
+  m_LocalScale: {x: 23.9, y: 1, z: 0.9}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2130749313}
@@ -1400,6 +1939,130 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 408967488}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &423338517 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+  m_PrefabInstance: {fileID: 487750314}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &453919673 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+  m_PrefabInstance: {fileID: 770577170}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &455230742
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 726503759}
+    m_Modifications:
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4123884329342633271, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_Name
+      value: Prefab Mur Destructible (11)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+--- !u!1001 &459946460
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1441500808}
+    m_Modifications:
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4123884329342633271, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_Name
+      value: Prefab Mur Destructible (5)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
 --- !u!1 &476500035
 GameObject:
   m_ObjectHideFlags: 0
@@ -1429,7 +2092,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -4, y: 27.5, z: -17.5}
-  m_LocalScale: {x: 24, y: 1, z: 1}
+  m_LocalScale: {x: 23.9, y: 1, z: 0.9}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2130749313}
@@ -1505,6 +2168,120 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 476500035}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &485924942
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 122197284}
+    m_Modifications:
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4123884329342633271, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_Name
+      value: Prefab Mur Destructible (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+--- !u!1001 &487750314
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 726503759}
+    m_Modifications:
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4123884329342633271, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_Name
+      value: Prefab Mur Destructible (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
 --- !u!1 &533058471
 GameObject:
   m_ObjectHideFlags: 0
@@ -1610,6 +2387,140 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 533058471}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &538448660 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+  m_PrefabInstance: {fileID: 1121989636}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &571536214 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+  m_PrefabInstance: {fileID: 627740252}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &603707189 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+  m_PrefabInstance: {fileID: 1124831336}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &627740252
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1441500808}
+    m_Modifications:
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4123884329342633271, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_Name
+      value: Prefab Mur Destructible (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+--- !u!4 &631640596 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+  m_PrefabInstance: {fileID: 647114751}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &647114751
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 724378885}
+    m_Modifications:
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4123884329342633271, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_Name
+      value: Prefab Mur Destructible (8)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
 --- !u!1 &659509117
 GameObject:
   m_ObjectHideFlags: 0
@@ -1715,6 +2626,16 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 659509117}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &665230443 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+  m_PrefabInstance: {fileID: 1412271729}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &697062391 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+  m_PrefabInstance: {fileID: 32502350}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -1809,6 +2730,273 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!4 &713931396 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+  m_PrefabInstance: {fileID: 459946460}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &724378884
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 724378885}
+  m_Layer: 0
+  m_Name: Murs destructibles (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &724378885
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 724378884}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0.7071068, z: -0, w: -0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1857165519}
+  - {fileID: 993056373}
+  - {fileID: 1722901915}
+  - {fileID: 453919673}
+  - {fileID: 1495375571}
+  - {fileID: 1283603420}
+  - {fileID: 603707189}
+  - {fileID: 1987482486}
+  - {fileID: 631640596}
+  - {fileID: 1742802671}
+  - {fileID: 369654302}
+  - {fileID: 1588704837}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 270, z: 0}
+--- !u!1 &726503758
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 726503759}
+  m_Layer: 0
+  m_Name: Murs destructibles (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &726503759
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 726503758}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 25438839}
+  - {fileID: 385415673}
+  - {fileID: 279859264}
+  - {fileID: 423338517}
+  - {fileID: 1350103676}
+  - {fileID: 1330193210}
+  - {fileID: 372499938}
+  - {fileID: 395038769}
+  - {fileID: 2145132126}
+  - {fileID: 945565690}
+  - {fileID: 1716321967}
+  - {fileID: 768126713}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!1001 &728872714
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 726503759}
+    m_Modifications:
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4123884329342633271, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_Name
+      value: Prefab Mur Destructible (6)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+--- !u!1001 &754920291
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 122197284}
+    m_Modifications:
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4123884329342633271, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_Name
+      value: Prefab Mur Destructible (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+--- !u!4 &768126713 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+  m_PrefabInstance: {fileID: 455230742}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &770577170
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 724378885}
+    m_Modifications:
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4123884329342633271, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_Name
+      value: Prefab Mur Destructible (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
 --- !u!1 &771988001
 GameObject:
   m_ObjectHideFlags: 0
@@ -1838,7 +3026,7 @@ Transform:
   m_GameObject: {fileID: 771988001}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4, y: 0, z: -6}
+  m_LocalPosition: {x: -10, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1982,6 +3170,348 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1001 &783627437
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1441500808}
+    m_Modifications:
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4123884329342633271, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_Name
+      value: Prefab Mur Destructible (6)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+--- !u!1001 &783660269
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 726503759}
+    m_Modifications:
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4123884329342633271, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_Name
+      value: Prefab Mur Destructible (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+--- !u!1001 &819772913
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 724378885}
+    m_Modifications:
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4123884329342633271, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_Name
+      value: Prefab Mur Destructible (11)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+--- !u!1001 &831791880
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 122197284}
+    m_Modifications:
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4123884329342633271, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_Name
+      value: Prefab Mur Destructible (8)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+--- !u!1001 &847209196
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 726503759}
+    m_Modifications:
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4123884329342633271, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_Name
+      value: Prefab Mur Destructible (10)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+--- !u!1001 &855199255
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 724378885}
+    m_Modifications:
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4123884329342633271, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_Name
+      value: Prefab Mur Destructible (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
 --- !u!1 &874374057
 GameObject:
   m_ObjectHideFlags: 0
@@ -2124,6 +3654,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 913850198}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &945565690 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+  m_PrefabInstance: {fileID: 1372467587}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -2216,6 +3751,125 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!4 &993056373 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+  m_PrefabInstance: {fileID: 271320764}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1006454757
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 726503759}
+    m_Modifications:
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4123884329342633271, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_Name
+      value: Prefab Mur Destructible (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+--- !u!1001 &1021563796
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 122197284}
+    m_Modifications:
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4123884329342633271, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_Name
+      value: Prefab Mur Destructible (5)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
 --- !u!1 &1037423669
 GameObject:
   m_ObjectHideFlags: 0
@@ -2334,17 +3988,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 339aa649544c9d6459197e35160bdea5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1001 &1095187882
+--- !u!1001 &1043050295
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 122197284}
     m_Modifications:
     - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -8
       objectReference: {fileID: 0}
     - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2352,7 +4006,64 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
       propertyPath: m_LocalPosition.z
+      value: -6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4123884329342633271, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_Name
+      value: Prefab Mur Destructible (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+--- !u!1001 &1095187882
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1441500808}
+    m_Modifications:
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -8
       objectReference: {fileID: 0}
     - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2391,6 +4102,135 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+--- !u!1001 &1121989636
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 122197284}
+    m_Modifications:
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4123884329342633271, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_Name
+      value: Prefab Mur Destructible (6)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+--- !u!4 &1123663413 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+  m_PrefabInstance: {fileID: 1706913411}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1124831336
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 724378885}
+    m_Modifications:
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4123884329342633271, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_Name
+      value: Prefab Mur Destructible (6)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+--- !u!4 &1164641105 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+  m_PrefabInstance: {fileID: 96346956}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1171682653 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+  m_PrefabInstance: {fileID: 62789876}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1184065082
 GameObject:
   m_ObjectHideFlags: 0
@@ -2525,7 +4365,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 7.5, y: 27.5, z: -6}
-  m_LocalScale: {x: 1, y: 1, z: 24}
+  m_LocalScale: {x: 0.9, y: 1, z: 23.9}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2130749313}
@@ -2706,6 +4546,140 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1221262753}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &1224556893
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 724378885}
+    m_Modifications:
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4123884329342633271, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_Name
+      value: Prefab Mur Destructible (5)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+--- !u!4 &1272655231 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+  m_PrefabInstance: {fileID: 382955008}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1283603420 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+  m_PrefabInstance: {fileID: 1224556893}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1293056910 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+  m_PrefabInstance: {fileID: 1801072546}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1330193210 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+  m_PrefabInstance: {fileID: 185846222}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1341125635
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 724378885}
+    m_Modifications:
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4123884329342633271, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_Name
+      value: Prefab Mur Destructible (10)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
 --- !u!1 &1344456641
 GameObject:
   m_ObjectHideFlags: 0
@@ -2811,6 +4785,73 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1344456641}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1348197321 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+  m_PrefabInstance: {fileID: 1754509146}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1350103676 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+  m_PrefabInstance: {fileID: 2032896400}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1372467587
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 726503759}
+    m_Modifications:
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4123884329342633271, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_Name
+      value: Prefab Mur Destructible (9)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
 --- !u!1 &1398337977
 GameObject:
   m_ObjectHideFlags: 0
@@ -2848,6 +4889,120 @@ Transform:
   - {fileID: 11369558}
   m_Father: {fileID: 156105014}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1412271729
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1441500808}
+    m_Modifications:
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4123884329342633271, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_Name
+      value: Prefab Mur Destructible (10)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+--- !u!1001 &1423741665
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 724378885}
+    m_Modifications:
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4123884329342633271, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_Name
+      value: Prefab Mur Destructible
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
 --- !u!1 &1431209195
 GameObject:
   m_ObjectHideFlags: 0
@@ -2954,6 +5109,111 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1431209195}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1441500807
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1441500808}
+  m_Layer: 0
+  m_Name: Murs destructibles
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1441500808
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1441500807}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1739764780}
+  - {fileID: 571536214}
+  - {fileID: 1703810246}
+  - {fileID: 1348197321}
+  - {fileID: 1123663413}
+  - {fileID: 713931396}
+  - {fileID: 1485684132}
+  - {fileID: 1272655231}
+  - {fileID: 1446499692}
+  - {fileID: 1992332896}
+  - {fileID: 665230443}
+  - {fileID: 1164641105}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1446499692 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+  m_PrefabInstance: {fileID: 1652790623}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1463569093
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1441500808}
+    m_Modifications:
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4123884329342633271, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_Name
+      value: Prefab Mur Destructible (9)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
 --- !u!1 &1464486997
 GameObject:
   m_ObjectHideFlags: 0
@@ -2986,7 +5246,7 @@ MonoBehaviour:
   sounds:
   - name: Kaboom
     clip: {fileID: 8300000, guid: b9f438e05605f5a40a3feb7f6bb10d19, type: 3}
-    volume: 1
+    volume: 0
     pitch: 1
     loop: 0
     source: {fileID: 0}
@@ -3005,6 +5265,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1468421537 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+  m_PrefabInstance: {fileID: 1896223540}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1483141524
 GameObject:
   m_ObjectHideFlags: 0
@@ -3110,6 +5375,16 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1483141524}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1485684132 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+  m_PrefabInstance: {fileID: 783627437}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1495375571 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+  m_PrefabInstance: {fileID: 2141676138}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1504423100
 GameObject:
   m_ObjectHideFlags: 0
@@ -3252,6 +5527,11 @@ Transform:
   - {fileID: 135476249}
   m_Father: {fileID: 156105014}
   m_LocalEulerAnglesHint: {x: 0, y: 270, z: 0}
+--- !u!4 &1588704837 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+  m_PrefabInstance: {fileID: 819772913}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1595514825
 GameObject:
   m_ObjectHideFlags: 0
@@ -3357,6 +5637,177 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1595514825}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &1601564592
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 122197284}
+    m_Modifications:
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4123884329342633271, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_Name
+      value: Prefab Mur Destructible (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+--- !u!1001 &1649459630
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 726503759}
+    m_Modifications:
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4123884329342633271, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_Name
+      value: Prefab Mur Destructible (7)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+--- !u!1001 &1652790623
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1441500808}
+    m_Modifications:
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4123884329342633271, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_Name
+      value: Prefab Mur Destructible (8)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
 --- !u!1 &1654305867
 GameObject:
   m_ObjectHideFlags: 0
@@ -3567,6 +6018,150 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1660363152}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1703810246 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+  m_PrefabInstance: {fileID: 1862598329}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1706913411
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1441500808}
+    m_Modifications:
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4123884329342633271, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_Name
+      value: Prefab Mur Destructible (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+--- !u!4 &1716259303 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+  m_PrefabInstance: {fileID: 485924942}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1716321967 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+  m_PrefabInstance: {fileID: 847209196}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1722901915 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+  m_PrefabInstance: {fileID: 855199255}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1739764780 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+  m_PrefabInstance: {fileID: 1095187882}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1742802671 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+  m_PrefabInstance: {fileID: 2052994144}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1754509146
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1441500808}
+    m_Modifications:
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4123884329342633271, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_Name
+      value: Prefab Mur Destructible (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
 --- !u!1 &1762609620
 GameObject:
   m_ObjectHideFlags: 0
@@ -3672,6 +6267,135 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1762609620}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1781410410 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+  m_PrefabInstance: {fileID: 831791880}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1782103526 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+  m_PrefabInstance: {fileID: 167214571}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1800610599
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 726503759}
+    m_Modifications:
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4123884329342633271, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_Name
+      value: Prefab Mur Destructible (8)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+--- !u!1001 &1801072546
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 122197284}
+    m_Modifications:
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4123884329342633271, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_Name
+      value: Prefab Mur Destructible
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+--- !u!4 &1807804166 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+  m_PrefabInstance: {fileID: 1021563796}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1849919471
 GameObject:
   m_ObjectHideFlags: 0
@@ -3777,6 +6501,68 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1849919471}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1857165519 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+  m_PrefabInstance: {fileID: 1423741665}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1862598329
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1441500808}
+    m_Modifications:
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4123884329342633271, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_Name
+      value: Prefab Mur Destructible (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
 --- !u!1 &1877555406
 GameObject:
   m_ObjectHideFlags: 0
@@ -3882,6 +6668,125 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1877555406}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1881597303 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+  m_PrefabInstance: {fileID: 754920291}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1896223540
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 122197284}
+    m_Modifications:
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4123884329342633271, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_Name
+      value: Prefab Mur Destructible (10)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+--- !u!1001 &1936993769
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 724378885}
+    m_Modifications:
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4123884329342633271, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_Name
+      value: Prefab Mur Destructible (7)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
 --- !u!1 &1941499344
 GameObject:
   m_ObjectHideFlags: 0
@@ -3987,6 +6892,130 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1941499344}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1987482486 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+  m_PrefabInstance: {fileID: 1936993769}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1992332896 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+  m_PrefabInstance: {fileID: 1463569093}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2032896400
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 726503759}
+    m_Modifications:
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4123884329342633271, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_Name
+      value: Prefab Mur Destructible (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+--- !u!1001 &2052994144
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 724378885}
+    m_Modifications:
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4123884329342633271, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_Name
+      value: Prefab Mur Destructible (9)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
 --- !u!1 &2130749312
 GameObject:
   m_ObjectHideFlags: 0
@@ -4022,6 +7051,68 @@ Transform:
   - {fileID: 1195803291}
   m_Father: {fileID: 156105014}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &2141676138
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 724378885}
+    m_Modifications:
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4123884329342633271, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+      propertyPath: m_Name
+      value: Prefab Mur Destructible (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+--- !u!4 &2145132126 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1869676654040943124, guid: 1bf60698a15c0364fa9d0f80bc6355db, type: 3}
+  m_PrefabInstance: {fileID: 1800610599}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -4032,4 +7123,7 @@ SceneRoots:
   - {fileID: 771988002}
   - {fileID: 1464486999}
   - {fileID: 156105014}
-  - {fileID: 1095187882}
+  - {fileID: 1441500808}
+  - {fileID: 726503759}
+  - {fileID: 122197284}
+  - {fileID: 724378885}

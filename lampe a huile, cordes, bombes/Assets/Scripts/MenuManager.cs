@@ -17,7 +17,7 @@ public class MenuManager : MonoBehaviour
 
     public void QuitToMenu()
     {
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene("Simon_MainMenu");
     }
 
     public void Play()

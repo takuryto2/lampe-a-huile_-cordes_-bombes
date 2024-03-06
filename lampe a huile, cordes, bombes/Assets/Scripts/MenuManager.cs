@@ -5,6 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class MenuManager : MonoBehaviour
 {
+    private void Start()
+    {
+        FindObjectOfType<AudioManager>().PlaySound("musique");
+    }
+
     public void Quit()
     {
         Application.Quit();

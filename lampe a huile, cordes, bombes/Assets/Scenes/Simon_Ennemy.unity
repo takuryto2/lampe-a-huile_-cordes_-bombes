@@ -1033,6 +1033,7 @@ MonoBehaviour:
   startInTheMidle: 0
   snapToGrid: 1
   moveSpeed: 3
+  bombPrefab: {fileID: 455200727040983900, guid: 6055e81f5063f2c448d5ccf7d0f3c1ac, type: 3}
 --- !u!54 &686496984
 Rigidbody:
   m_ObjectHideFlags: 0

@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEditor.Experimental.GraphView;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UIElements;
 using static UnityEngine.EventSystems.EventTrigger;
+using static UnityEngine.Tilemaps.Tilemap;
 
 public class Morshu : MonoBehaviour
 {
@@ -23,6 +25,10 @@ public class Morshu : MonoBehaviour
     private float timer;
     [SerializeField] private float moveSpeed;
     private bool isMoving;
+    private bool terrorism = true;
+    [SerializeField] private GameObject bombPrefab;
+    private int orientationX;
+    private int orientationY;
     void Start()
     {
         grid = GameGrid.instance;
@@ -47,7 +53,8 @@ public class Morshu : MonoBehaviour
 
         targetPosition = cellOn.pos;
 
-        isMoving = false;
+        isMoving = true;
+
     }
 
     void Update()
@@ -60,8 +67,15 @@ public class Morshu : MonoBehaviour
             if (timer == 1f)
             {
                 InitPath();
-                targetPosition = pathToPlayerOne[pathToPlayerOne.Count - 1].cell.pos;
-                pathToPlayerOne.RemoveAt(pathToPlayerOne.Count - 1);
+                isMoving = false;
+                if (pathToPlayerOne.Count - 1 <= player.radius)
+                {
+                    OnBombEnter();
+                }
+                else
+                {
+                    MoveToCell(pathToPlayerOne[pathToPlayerOne.Count - 1].cell);
+                }
                 pathToPlayerOne.Clear();
             }
         }
@@ -193,26 +207,75 @@ public class Morshu : MonoBehaviour
     {
         if (other.CompareTag("Explosion"))
         {
-            Destroy(gameObject);
+            SceneManager.LoadScene("Simon_Win");
         }
     }
 
     void MoveToCell(Cell cell)
     {
-        lastPosition = cellOn.pos;
+        if (!WallDetection(cellOn.pos, targetPosition))
+        {
+            lastPosition = cellOn.pos;
 
-        targetPosition = cell.pos;
+            targetPosition = cell.pos;
 
-        cellOn.DeleteEntity();
+            orientationX = (targetPosition.x - lastPosition.x).ConvertTo<int>();
+            orientationY = (targetPosition.y - lastPosition.y).ConvertTo<int>();
+
+            cellOn.DeleteEntity();
+
+            cell.SetEntity(entity);
+
+            cellOn = cell;
+
+            isMoving = true;
+
+            timer = 0f;
+        }
+        /*else
+        {
+            lastPosition = cellOn.pos;
+
+            targetPosition = cellOn.pos;
+
+            orientationX = (targetPosition.x - lastPosition.x).ConvertTo<int>();
+            orientationY = (targetPosition.y - lastPosition.y).ConvertTo<int>();
 
 
-        cell.SetEntity(entity);
 
-        cellOn = cell;
+            cellOn.DeleteEntity();
 
-        isMoving = true;
+            cellOn.SetEntity(entity);
 
-        timer = 0f;
+            isMoving = true;
+
+            timer = 0f;
+        }*/
+    }
+
+    public void OnBombEnter()
+    {
+        if (terrorism == true)
+        {
+            Cell bombCell = grid.GetCell(cellOn.gridPos.Item1 + orientationX, cellOn.gridPos.Item2 + orientationY);
+            GameObject bomb = Instantiate(bombPrefab, bombCell.pos, Quaternion.identity);
+            SetBool(false);
+        }
+    }
+
+    public void SetBool(bool value)
+    {
+        terrorism = value;
+    }
+
+    public bool WallDetection(Vector3 startPos, Vector3 endPos)
+    {
+        Debug.DrawRay(startPos, (endPos - startPos) * Vector3.Distance(startPos, endPos), Color.red, 2);
+        if (Physics.Raycast(startPos, endPos - startPos, Vector3.Distance(startPos, endPos)))
+        {
+            return true;
+        }
+        return false;
     }
 
 }

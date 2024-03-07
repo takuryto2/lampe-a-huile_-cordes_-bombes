@@ -1,4 +1,5 @@
 using BehaviourTree;
+using System.Collections.Generic;
 
 public class MorshuBT : Tree
 {
@@ -6,6 +7,11 @@ public class MorshuBT : Tree
     public static float speed = 2f;
     protected override BehaviourTree.Node SetUpTree()
     {
-        throw new System.NotImplementedException();
+        BehaviourTree.Node root = new Sequence(new List<BehaviourTree.Node>
+            {
+                new CheckBombInFOVRange(transform),
+                new TaskRun(transform),
+            });
+        return root;
     }
 }

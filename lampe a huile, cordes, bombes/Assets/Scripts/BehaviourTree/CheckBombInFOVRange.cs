@@ -5,7 +5,7 @@ using Unity.VisualScripting;
 using BehaviourTree;
 public class CheckBombInFOVRange : BehaviourTree.Node
 {
-
+    private static int _bombLayerMask = 1 << 6;
     private Transform _transform;
 
     public CheckBombInFOVRange(Transform transform)
@@ -18,10 +18,10 @@ public class CheckBombInFOVRange : BehaviourTree.Node
         object t = GetData("target");
         if (t== null)
         {
-            Collider[] colliders = Physics.OverlapSphere(_transform.position, MorshuBT.fovRange);
+            Collider[] colliders = Physics.OverlapSphere(_transform.position, MorshuBT.fovRange, _bombLayerMask);
             if (colliders.Length > 0)
             {
-                parent.parent.SetData("target", colliders[0].transform);
+                parent.SetData("target", colliders[0].transform);
                 state = NodeState.SUCCESS;
                 return state;
             }

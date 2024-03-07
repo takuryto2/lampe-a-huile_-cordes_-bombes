@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4185898592220713779}
   - component: {fileID: 6828625836540850958}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: bombPrefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -64,7 +64,7 @@ GameObject:
   - component: {fileID: 6866198678328219404}
   - component: {fileID: 1167909708065545417}
   - component: {fileID: 2070359971252284160}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}

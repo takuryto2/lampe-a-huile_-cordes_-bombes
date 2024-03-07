@@ -14,10 +14,15 @@ public class TaskRun : BehaviourTree.Node
     public override NodeState Evaluate()
     {
         Transform target = (Transform)GetData("target");
+        if (target == null)
+        {
+            state = NodeState.FAILURE;
+            return state;
+        }
         if (Vector3.Distance(_transform.position, target.position) > 0.01f )
         {
-            _transform.position = Vector3.MoveTowards(_transform.position, target.position, MorshuBT.speed * Time.deltaTime);
-            _transform.LookAt(target.position);
+            _transform.position = Vector3.MoveTowards(_transform.position, -target.position, MorshuBT.speed * Time.deltaTime);
+            _transform.LookAt(-target.position);
         }
         state = NodeState.RUNNING; 
         return state;

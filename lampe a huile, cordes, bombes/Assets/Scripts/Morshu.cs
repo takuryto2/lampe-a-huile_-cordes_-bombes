@@ -213,11 +213,12 @@ public class Morshu : MonoBehaviour
 
     void MoveToCell(Cell cell)
     {
-        if (!WallDetection(cellOn.pos, targetPosition))
-        {
             lastPosition = cellOn.pos;
 
             targetPosition = cell.pos;
+
+        if (!WallDetection(cellOn.pos, targetPosition))
+        {
 
             orientationX = (targetPosition.x - lastPosition.x).ConvertTo<int>();
             orientationY = (targetPosition.y - lastPosition.y).ConvertTo<int>();
@@ -232,7 +233,7 @@ public class Morshu : MonoBehaviour
 
             timer = 0f;
         }
-        /*else
+        else
         {
             lastPosition = cellOn.pos;
 
@@ -250,7 +251,7 @@ public class Morshu : MonoBehaviour
             isMoving = true;
 
             timer = 0f;
-        }*/
+        }
     }
 
     public void OnBombEnter()

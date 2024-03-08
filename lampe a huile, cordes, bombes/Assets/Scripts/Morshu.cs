@@ -227,8 +227,8 @@ public class Morshu : MonoBehaviour
         if (!WallDetection(cellOn.pos, targetPosition))
         {
 
-            orientationX = (targetPosition.x - lastPosition.x).ConvertTo<int>();
-            orientationY = (targetPosition.y - lastPosition.y).ConvertTo<int>();
+            orientationX = cell.gridPos.Item1 - cellOn.gridPos.Item1;
+            orientationY = cell.gridPos.Item2 - cellOn.gridPos.Item2;
 
             cellOn.DeleteEntity();
 
@@ -246,8 +246,8 @@ public class Morshu : MonoBehaviour
 
             targetPosition = cellOn.pos;
 
-            orientationX = (targetPosition.x - lastPosition.x).ConvertTo<int>();
-            orientationY = (targetPosition.y - lastPosition.y).ConvertTo<int>();
+            orientationX = cell.gridPos.Item1 - cellOn.gridPos.Item1;
+            orientationY = cell.gridPos.Item2 - cellOn.gridPos.Item2;
 
 
 

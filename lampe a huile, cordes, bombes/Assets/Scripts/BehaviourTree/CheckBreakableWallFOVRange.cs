@@ -1,14 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Unity.VisualScripting;
 using BehaviourTree;
-public class CheckBombInFOVRange : BehaviourTree.Node
+
+public class CheckBreakableWallFOVRange : BehaviourTree.Node
 {
-    private static int _bombLayerMask = 1 << 7;
+    private static int _wallLayerMask = 1 << 6;
     private Transform _transform;
 
-    public CheckBombInFOVRange(Transform transform)
+    public CheckBreakableWallFOVRange(Transform transform)
     {
         _transform = transform;
     }
@@ -16,16 +16,16 @@ public class CheckBombInFOVRange : BehaviourTree.Node
     public override NodeState Evaluate()
     {
         object t = GetData("target");
-        if (t== null)
+        if (t == null)
         {
-            Collider[] colliders = Physics.OverlapSphere(_transform.position, MorshuBT.fovRange, _bombLayerMask);
+            Collider[] colliders = Physics.OverlapSphere(_transform.position, MorshuBT.fovRange, _wallLayerMask);
             if (colliders.Length > 0)
             {
                 parent.SetData("target", colliders[0].transform);
                 state = NodeState.SUCCESS;
                 return state;
             }
-            state = NodeState.FAILURE; 
+            state = NodeState.FAILURE;
             return state;
         }
         state = NodeState.SUCCESS;

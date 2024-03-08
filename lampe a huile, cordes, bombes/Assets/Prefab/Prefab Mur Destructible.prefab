@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 4318227328021225771}
   - component: {fileID: 8413215772843808350}
   - component: {fileID: 7699743293694907586}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Prefab Mur Destructible
   m_TagString: Untagged
   m_Icon: {fileID: 0}

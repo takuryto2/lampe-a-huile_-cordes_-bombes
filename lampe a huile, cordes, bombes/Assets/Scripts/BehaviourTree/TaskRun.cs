@@ -5,6 +5,7 @@ using BehaviourTree;
 public class TaskRun : BehaviourTree.Node
 {
     private Transform _transform;
+    private Morshu morshu = Morshu.instance;
 
     public TaskRun(Transform transform)
     {
@@ -21,8 +22,8 @@ public class TaskRun : BehaviourTree.Node
         }
         if (Vector3.Distance(_transform.position, target.position) > 0.01f )
         {
-            _transform.position = Vector3.MoveTowards(_transform.position, -target.position, MorshuBT.speed * Time.deltaTime);
-            _transform.LookAt(-target.position);
+            Cell targetCell = morshu.GetGrid().GetClosestCell(-target.position);
+            morshu.MoveToCell(targetCell);
         }
         state = NodeState.RUNNING; 
         return state;

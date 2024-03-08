@@ -2658,6 +2658,7 @@ MonoBehaviour:
     volume: 1
     pitch: 1
     loop: 0
+    PlayOnAwake: 0
     source: {fileID: 0}
 --- !u!4 &1464486999
 Transform:

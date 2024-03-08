@@ -29,6 +29,13 @@ public class Morshu : MonoBehaviour
     [SerializeField] private GameObject bombPrefab;
     private int orientationX;
     private int orientationY;
+    public static Morshu instance;
+
+    private void Awake()
+    {
+        instance = this;
+    }
+
     void Start()
     {
         grid = GameGrid.instance;
@@ -211,7 +218,7 @@ public class Morshu : MonoBehaviour
         }
     }
 
-    void MoveToCell(Cell cell)
+    public void MoveToCell(Cell cell)
     {
             lastPosition = cellOn.pos;
 
@@ -278,6 +285,8 @@ public class Morshu : MonoBehaviour
         }
         return false;
     }
+
+    public GameGrid GetGrid() { return grid; }
 
 }
 

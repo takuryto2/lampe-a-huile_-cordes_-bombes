@@ -33,13 +33,4 @@ public class Cell
         return true;
     }
 
-    public void ExplodeCell()
-    {
-        Debug.Log("TAMERE");
-        if (entity == null) return;
-        isExploding = true;
-        DeleteEntity();
-        isExploding = false;
-    }
-
 }

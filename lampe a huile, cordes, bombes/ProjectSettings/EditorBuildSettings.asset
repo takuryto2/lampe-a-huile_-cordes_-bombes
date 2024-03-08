@@ -8,4 +8,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Simon_Win.unity
     guid: 6ff78af8af496e64e8b152959a6be04b
+  - enabled: 1
+    path: Assets/Scenes/Game.unity
+    guid: b21b119a7cae03142b8659ec81913faf
+  - enabled: 1
+    path: Assets/Scenes/Simon_MainMenu.unity
+    guid: b4cf79cfe96bccf40832dcc7b9c864e0
+  - enabled: 1
+    path: Assets/Scenes/Simon_GameOver.unity
+    guid: e96290d1b7717974686f8809850c3958
   m_configObjects: {}

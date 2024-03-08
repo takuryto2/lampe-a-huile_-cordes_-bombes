@@ -5,7 +5,7 @@ using Unity.VisualScripting;
 using BehaviourTree;
 public class CheckBombInFOVRange : BehaviourTree.Node
 {
-    private static int _bombLayerMask = 1 << 7;
+    private static int _bombLayerMask = 1 << 6;
     private Transform _transform;
 
     public CheckBombInFOVRange(Transform transform)

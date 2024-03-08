@@ -22,7 +22,7 @@ public class TaskRun : BehaviourTree.Node
         }
         if (Vector3.Distance(_transform.position, target.position) > 0.01f )
         {
-            Cell targetCell = morshu.GetGrid().GetClosestCell(-target.position);
+            Cell targetCell = morshu.GetGrid().GetCell((morshu.GetGrid().GetClosestCell(target.position).gridPos.Item1 - morshu.GetGrid().GetClosestCell(_transform.position).gridPos.Item1),(morshu.GetGrid().GetClosestCell(target.position).gridPos.Item2 - morshu.GetGrid().GetClosestCell(_transform.position).gridPos.Item2));
             morshu.MoveToCell(targetCell);
         }
         state = NodeState.RUNNING; 
